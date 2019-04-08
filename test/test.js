@@ -18,9 +18,9 @@ describe('main test suite', function () {
     })
     assert.equal(res, 'var baz = (function () { console.log("foo") })()' +
       '\n//# sourceMappingURL=data:application/json;charset=utf-8;' +
-      'base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjpudWxsLCJzb3VyY2VzIjpbbn' +
-      'VsbF0sInNvdXJjZXNDb250ZW50IjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGl' +
-      'uZ3MiOiJBQUFBLFVBQVUsQ0FBQSxrQ0FBa0MsQ0FBQSJ9')
+      'base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjpudWxsLCJzb3VyY2VzIjpbbnVsbF' +
+      '0sInNvdXJjZXNDb250ZW50IjpbbnVsbF0sIm5hbWVzIjpbXSwibWFwcGluZ3M' +
+      'iOiJBQUFBLFdBQVUsbUNBQWtDIn0=')
   })
   testCases.forEach(function (testCase) {
     it('test ' + testCase, function () {
